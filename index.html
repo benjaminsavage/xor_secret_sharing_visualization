@@ -8,10 +8,31 @@
 </head>
 <body>
     <h1>Secret Sharing Demo</h1>
-    <canvas id="original_image" width="130" height="130"></canvas>
-    <canvas id="random_mask" width="130" height="130"></canvas>
-    <canvas id="masked_secret" width="130" height="130"></canvas>
+    <div>
+      <label>Original Image</label>
+      <canvas id="original_image" width="130" height="130"></canvas>
+    </div>
 
-    <canvas id="playground" width="300" height="300"></canvas>
+    <div id="shares">
+      <div>
+        <label>Share 1</label>
+        <canvas id="share_1" width="130" height="130"></canvas>
+      </div>
+
+      <div>
+        <label>Share 2</label>
+        <canvas id="share_2" width="130" height="130"></canvas>
+      </div>
+
+      <div>
+        <label>Share 3</label>
+        <canvas id="share_3" width="130" height="130"></canvas>
+      </div>
+    </div>
+
+    <div id="playground_div">
+      <canvas id="playground" width="300" height="300"></canvas>
+    </div>
+
 </body>
 </html>
